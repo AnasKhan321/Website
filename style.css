@@ -1,0 +1,239 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Nanum+Myeongjo&family=Rajdhani:wght@300&family=Raleway:wght@100&family=Roboto&family=Sofia+Sans:wght@200&display=swap');@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Nanum+Myeongjo&family=Rajdhani:wght@300&family=Raleway:wght@100&family=Roboto&family=Sofia+Sans:wght@200&display=swap');@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Nanum+Myeongjo&family=Rajdhani:wght@300&family=Raleway:wght@100&family=Roboto&family=Sofia+Sans:wght@200&display=swap');@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Nanum+Myeongjo&family=Rajdhani:wght@300&family=Raleway:wght@100&family=Roboto&family=Sofia+Sans:wght@200&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+header{
+	background: black;
+	color: darkgray;
+	display: flex;
+	justify-content: center;
+	position: sticky;
+	top: 0px;
+}
+header a{
+	text-decoration: none;
+	color: darkgray;
+	
+	padding: 20px;
+	
+	font-size: 14px;
+}
+header a:hover{
+	color: ghostwhite;
+}
+.mac{
+	width: 100vw;
+	color: white;
+	background-color: black;
+
+}
+.mac img{
+	margin-top: 10px;
+	margin-left: 350px;
+}
+.bolder{
+	font-size: 55px;
+	text-align: center;
+
+
+}
+.sp{
+	padding-top: 150px;
+}
+.element{
+	text-align: center;
+	font-size: 20px;
+	border: 2px solid white;
+	border-radius: 30px;
+	margin: 50px 650px;
+	padding: 10px;
+	border-left-color: blue;
+	border-right-color: red;
+	border-top-color: blue;
+	border-bottom-color: red;
+}
+.text{
+	text-align: center;
+	font-size: 30px;
+}
+.grey{
+	color: grey;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.macc{
+		margin-top: 100px;
+}
+.but{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #2442ff;
+	
+	}
+.but span{
+	margin: 20px;
+	font-size: 20px;
+}
+.element:hover{
+	
+	animation: anas 1s infinite;
+	color: black;
+	background-color: whitesmoke;
+
+}
+@keyframes anas{
+	0%{
+		color: white;
+		background-color: black;
+	}
+	100%{
+		color: black;
+		background-color: whitesmoke;
+	}
+}
+.but span:hover{
+	text-decoration: underline;
+}
+.mini{
+	background-color: black;
+	color: white;
+	margin-top: 10px;
+}
+.mini img{
+	margin-left: 350px;
+}
+.bolder2{
+	font-size: 55px;
+	text-align: center;
+	padding-top: 40px;
+
+}
+.hom{
+	background-color: black;
+	margin-top: 20px;
+	color: white;
+}
+#maccc{
+	margin-left: 350px;
+}
+.unity{
+	width: 45vw;
+	background-color: black;
+	color: white;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 40px;
+}
+
+.bolder3{
+	text-align: center;
+	font-size: 35px;
+	font-weight: bolder;
+}
+.pad{
+	padding-top: 30px;
+}
+.light{
+	text-align: center;
+
+}
+.watches{
+	display: flex;
+	justify-content: space-between;
+}
+.series8{
+	width: 45vw;	
+	background-color: black;
+	color: white;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 40px;
+}
+.red{
+	text-align: center;
+	color: orangered;
+}
+.iphone{
+	display: flex;
+}
+.iphone14pro{
+	width: 45vw;	
+	background-color: black;
+	color: white;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 40px;
+}
+.iphone14{
+	width: 45vw;	
+	background-color: ghostwhite;
+	color: black;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 40px;
+}
+#imgg{
+	margin-left: 60px;
+}
+
+
+footer{
+	
+	background-color: ghostwhite;
+	margin-top: 40px;
+	height: 70vh;
+}
+
+.all{
+	display: flex;
+	justify-content: center;
+	font-family: 'Roboto', sans-serif;
+
+}
+footer a{
+	display: block;
+	text-decoration: none;
+	color: #4e4e4f;
+	margin: 5px;
+
+}
+
+.bolder4{
+	margin-top: 20px;
+	font-weight: bolder;
+}
+.shop{
+	margin-top: 70px;
+	padding-right: 40px;
+
+}
+.services{
+margin-top: 70px;
+	padding-right: 40px;
+}
+
+.apple-store{
+margin-top: 70px;
+	padding-right: 40px;
+}
+
+.bus{
+margin-top: 70px;
+	padding-right: 40px;
+}
+.values{
+	padding-top: 70px;
+	padding-right: 40px;
+}
+footer a:hover{
+	text-decoration: underline;
+}
